@@ -1,0 +1,228 @@
+#mastergrid {
+		max-width: 1200px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+		grid-template-areas: 	"header header header"
+								"article article article"
+								"timeplan timeplan timeplan"
+								"footer footer footer";
+}
+
+.header { 
+	grid-area: header;
+	background-color: #0099cc;
+	margin: 0 auto;
+	width: 1200px;
+}
+.sentrertheader, .overskriftviktig {
+	text-align:center;
+	margin:0 auto;
+	
+}
+.spanhome, .spanartikkel1, .spanartikkel2, .spangithub { 
+	margin-right:10%;
+	margin-left: 10%;
+}
+a {
+	color:red;
+	
+}
+
+a:link {
+	color: white;
+}	
+a:visited{
+	color: white;
+}
+a:hover {
+	color: blue;
+	
+}
+a:active{
+	color: black;
+}
+.headeroverskrift {
+	
+		text-align: center;
+		color: #eee;
+	
+	
+}
+.header,.headerliste {
+	list-style: none;
+	margin: 0 auto;
+	display: inline;
+	
+}
+.artikkel1, .artikkel2, .github {
+	
+	float:left;
+	margin-top: 20px;
+	background-color: #0099cc;
+	height: auto;
+	width: 100%;
+	
+}
+
+.artikkel1header {
+
+	text-align: center;
+	margin:0 auto;
+}
+.artikkel1{
+	background-color: #FF7D12;
+}
+.artikkel2 {
+	
+	background-color:#E36F10;
+	
+}
+.github{
+	background-color: #C4600E;
+}
+
+
+.artikkel2header{
+	text-align:center;
+	margin:auto;
+}
+
+
+.midtstilth2 {
+	
+	text-align:center;
+	margin:auto;
+	
+}
+.artikkel3header{
+	text-align:center;
+	margin:auto;
+	
+}
+.footer {
+	grid-area: footer;
+	background-color: #0099cc;
+	margin-top:20px;
+	
+}
+.link {
+	text-align: center;
+	
+}
+
+.webutvikling, .bildeplan, .webstoff {
+	float:left;
+	margin-top: 20px;
+	height: 300px;
+	width: 100%;
+	
+	
+}
+.webutvikling {
+	background-color:#994B0B;
+}
+
+
+.bilde{
+	width: 100%;
+}
+
+.bilde:hover{
+	transform: scale(1.5);
+	transition: 2s;	
+	width: 100%;
+
+}
+
+
+.webstoff{
+	background-color:#FF7D11;
+}
+
+.artikkelside1, .artikkelside2, .artikkelgithub, .omdennesiden {
+	width:1200px;
+	height: auto;
+	margin-top:15px;
+	background-color:#BABABA;
+
+}
+
+.overskriftmathml, .overskriftsvg, .overskriftgithub, .overskriftomdennesiden{
+	margin: 0 auto;
+	text-align: center;
+	z-index: 999;
+}
+
+
+
+
+h1, h2{
+font-family: 'Roboto Mono', monospace;
+	
+	
+}
+
+p{ 
+	padding:5px;
+	font-family: 'Domine', serif;
+}
+.skisse1bilde {
+	width: 30%;
+	margin:0 auto;
+	padding: 5px;
+	
+}
+.skisse1bilde:hover {
+	transition: 2s;	
+	width: 50%;
+	height:50%;
+	overflow: scroll;
+	padding: 5px;
+	
+}
+.skisse2 {
+	width: 30%;
+	margin:0 auto;
+	padding: 5px;
+	
+}
+.skisse2:hover {
+	transition: 2s;	
+	width: 50%;
+	height:50%;
+	overflow: scroll;
+	padding: 5px;
+	
+}
+
+.tableliste {
+	padding: 5px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table a:visited{
+	color: red;
+}
+table a:hover {
+	color: white;
+}
+
+.tr1 {
+	background-color: yellow;
+}
+
+.tr2{
+	background-color: #FFA184;
+}
+ ul{
+	 list-style: upper-roman;	
+ }
+#svgliste {
+list-style: circle;	
+}

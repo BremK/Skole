@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="utf-8" /> 
+		<title> MathML </title> 
+		<link href="indexcss.css" rel="stylesheet"/> 
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+		
+	<script src="https://use.fontawesome.com/af4e45f5ea.js"></script>
+	<script type="text/javascript" async
+	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>	
+
+	</head>
+
+		<body>
+				<div id="mastergrid"> 
+						
+						<div class="header">  <!-- Header boksen på topp --> 
+							<h1 class="headeroverskrift">  OBLIG 2  </h1> <!-- OVERSKRIFTEN --> 
+														
+							<p class="sentrertheader">
+								<span class="spanhome">  		<a href="index.html">		<i class="fa fa-home" aria-hidden="true">	  </i> Home		</a> </span>
+								<span class="spanartikkel1">	<a href="artikkel1.html"> 	<i class="fa fa-file-text" aria-hidden="true"></i> MathML	</a> </span>
+								<span class="spanartikkel2">   	<a href="artikkel2.html">	<i class="fa fa-file-text" aria-hidden="true"></i> SVG		</a> </span>
+								<span class="spangithub">  		<a href="github.html">		<i class="fa fa-file-text" aria-hidden="true"></i> 	Github 	</a> </span>
+							</p>
+					 
+						
+						</div>
+						
+						<div class="artikkelside1">
+							<h1 class="overskriftmathml"> MathML </h1>
+								<p> 
+										ML er en markup language. Det er en strukturert måte å representere matematiske formler. 
+										MathML  brukes stort sett på WWW (world wide web) .  Fungere også ganske bra til talesyntese. 
+										Det finnes to typer av MathML: Content og  Presentation <br/>
+										C-MathML beholder semantikken i det matematiske uttrykket. </br>	
+										P-MathML beskriver hvordan det skal vises. Hvordan man får opp stykket på siden.
+										MathML er en del av html5 men ikke alle web browsere støtter det. For å få det til
+										å funke i praksis må man bruke javascript til å hjelpe disse web browserne til å forstå det.
+										Firefox skjønner det, men andre web browser kan ha problemer med å skjønne det. Javascript hjelper disse web-browseren til å forstå det	.
+								</p> 	
+								<hr/> 
+					<math>
+                          <mi>x</mi>
+                          <mo>*</mo>
+                          <mn>5</mn>
+                          <mo>=</mo>
+                          <mn>25</mn>
+                    </math>	 
+					
+					<br/>	
+					
+				<math>
+                    <mrow>
+							<msup>
+									<mi>x</mi>
+									<mn>2</mn>
+							</msup>
+							
+                                <mo>+</mo>
+										<msup>
+											<mi>b</mi>
+												<mn>2</mn>
+										</msup>
+										
+										<mo>=</mo>
+
+							<msup>
+									<mi>c</mi>
+									<mn>2</mn>
+							</msup>
+                    </mrow>
+                </math>
+				<br/>
+				<math>
+                            <mrow>
+                               <msup>
+                                 <mfenced>
+                                   <mrow>
+                                     <mi>x</mi>
+                                     <mo>-</mo>
+                                     <mi>y</mi>
+                                   </mrow>
+                                 </mfenced>
+                                 <mn>2</mn>
+                               </msup>
+                             </mrow>
+                        </math>
+				<!-- &lt=<    &gt;= > --> 
+						<p>
+							For å starte MathML starter du med &ltmath&gt; og deretter lager du en rad
+							&ltmrow&gt; der hvor du skriver inn alt som skal være med i den raden.Om du kun
+							har et rad som de to første eksemplene skriver du row taggen kun en gang på starten
+							og på slutten.  For ukjente variabler bruker du taggen &ltmi&gt;. Eksemepel 2
+							som er pytagoras læresetning kan være et fint eksempel på det. Skal du ha paranteser 
+							må taggen &ltmfenced&gt; benyttes. 
+							Taggen &ltmo&gt; brukes for matematiske operatorer som
+							pluss, minus, gange og deling. 
+							&ltmi&gt; representerer et tall.
+							
+							
+							
+							
+						</p>
+										
+										
+										
+										
+										
+	
+												
+											
+						</div>
+							
+							
+						
+					
+						<div class="footer">
+						
+							<p class="link"> <a href="omdennesiden.html"><i class="fa fa-file-text" aria-hidden="true"></i> Om denne siden </a> </p>
+							
+								<a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i> </a>
+								<a href="#"> <i class="fa fa-address-book-o" aria-hidden="true"></i> </a>
+								<a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a> 
+								
+
+						
+						</div>
+						
+						
+						
+					
+						
+						
+				</div>
+						
+					
+						
+				
+			
+			
+		</body> 
+	</html>  
